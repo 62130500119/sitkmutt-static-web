@@ -1,6 +1,6 @@
 services:
   web:
     build: .
-    image: ghcr.io/62130500119/sitkmutt-static-web:dev
+    image: ghcr.io/62130500119/static-web:dev
     ports:
       - "8080:80"
